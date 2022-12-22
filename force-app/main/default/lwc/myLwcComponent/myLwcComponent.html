@@ -1,0 +1,10 @@
+<template>
+    <div >
+         <h1 >Swiggy</h1>
+    </div>
+    <lightning-input type='search' onchange={handleKeyChange} class="slds-m-bottom_small" lable="Search" placeholder="Search Food Item Here" value={dishName}>
+    </lightning-input>
+    <template for:each={FoodList} for:item="swiggyObj" for:index="index">
+        <option key ={swiggyObj.Id}>{swiggyObj.Name}</option>
+    </template>
+ </template>

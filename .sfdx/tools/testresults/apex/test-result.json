@@ -1,0 +1,94 @@
+{
+  "summary": {
+    "outcome": "Failed",
+    "testsRan": 1,
+    "passing": 0,
+    "failing": 1,
+    "skipped": 0,
+    "passRate": "0%",
+    "failRate": "100%",
+    "skipRate": "0%",
+    "testStartTime": "Wed Apr 27 2022 2:27:29 pm",
+    "testExecutionTimeInMs": 217,
+    "testTotalTimeInMs": 217,
+    "commandTimeInMs": 0,
+    "hostname": "https://gyansysinfotech-6d-dev-ed.my.salesforce.com",
+    "orgId": "00D5i000001365YEAQ",
+    "username": "amitb@gyansys.com",
+    "testRunId": "",
+    "totalLines": 6,
+    "coveredLines": 6,
+    "testRunCoverage": "100%",
+    "orgWideCoverage": "1%"
+  },
+  "tests": [
+    {
+      "id": "",
+      "queueItemId": "",
+      "stackTrace": "Class.testclass.should_create_account: line 17, column 1",
+      "message": "System.AssertException: Assertion Failed: incorrect ticker symbol: Expected: CRM, Actual: salesforce",
+      "asyncApexJobId": "",
+      "methodName": "should_create_account",
+      "outcome": "Fail",
+      "apexLogId": "07L5i000000RBcPEAW",
+      "apexClass": {
+        "id": "01p5i0000035C5PAAU",
+        "name": "testclass",
+        "namespacePrefix": null,
+        "fullName": "testclass"
+      },
+      "runTime": 147,
+      "testTimestamp": "",
+      "fullName": "testclass.should_create_account",
+      "diagnostic": {
+        "exceptionMessage": "System.AssertException: Assertion Failed: incorrect ticker symbol: Expected: CRM, Actual: salesforce",
+        "exceptionStackTrace": "Class.testclass.should_create_account: line 17, column 1",
+        "className": "testclass",
+        "compileProblem": "",
+        "lineNumber": 17,
+        "columnNumber": 1
+      },
+      "perClassCoverage": [
+        {
+          "apexClassOrTriggerName": "apexclass",
+          "apexClassOrTriggerId": "01p5i0000035C4WAAU",
+          "apexTestClassId": "01p5i0000035C5PAAU",
+          "apexTestMethodName": "should_create_account",
+          "numLinesCovered": 6,
+          "numLinesUncovered": 0,
+          "percentage": "100%",
+          "coverage": {
+            "coveredLines": [
+              2,
+              4,
+              5,
+              6,
+              7,
+              9
+            ],
+            "uncoveredLines": []
+          }
+        }
+      ]
+    }
+  ],
+  "codecoverage": [
+    {
+      "apexId": "01p5i0000035C4WAAU",
+      "name": "apexclass",
+      "type": "ApexClass",
+      "numLinesCovered": 6,
+      "numLinesUncovered": 0,
+      "percentage": "100%",
+      "coveredLines": [
+        2,
+        4,
+        5,
+        6,
+        7,
+        9
+      ],
+      "uncoveredLines": []
+    }
+  ]
+}

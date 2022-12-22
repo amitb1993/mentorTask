@@ -1,0 +1,21 @@
+<template>
+    <lightning-card>
+    <div class="slds-p-around_medium lgc-bg">
+        <lightning-input type="text" label="First Name" placeholder="First Name" name="Fname" required="true"></lightning-input>
+    </div>
+    <div class="slds-p-around_medium lgc-bg">
+        <lightning-input type="text" label="Last Name" placeholder="Last Name" name="Lname" required="true"></lightning-input>
+    </div>
+    <div class="slds-p-around_medium lgc-bg">
+        <lightning-input type="text" label="Phone No" placeholder="Phone No" name="Pnum" required="true"></lightning-input>
+    </div>
+    <div class="slds-p-around_medium lgc-bg">
+        <lightning-input type="text" label="Email" placeholder="Email" name="email" required="true"></lightning-input>
+    </div>
+    <div class="slds-p-around_medium lgc-bg">
+        <lightning-input type="text" label="Description" placeholder="Description" name="decription" required="true"></lightning-input>
+    </div>   
+    <lightning-button variant="brand" label="Submit" onclick={handleSubmit} class="slds-m-left_large" disabled={allNotSelected} ></lightning-button>
+
+</lightning-card>
+</template>
